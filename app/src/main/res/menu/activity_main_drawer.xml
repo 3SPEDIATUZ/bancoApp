@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/van_home"
+            android:title="@string/ini"
+            android:icon="@drawable/icono_inicio">
+
+        </item>
+    </group>
+
+    <item android:title="@string/Trans">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_Retirar"
+                    android:title="@string/retiro"
+                    android:icon="@drawable/icono_retiro"/>
+                <item
+                    android:id="@+id/nav_tranferir"
+                    android:title="@string/transfe"
+                    android:icon="@drawable/icono_dinero"/>
+                <item
+                    android:id="@+id/nav_tranferir_qr"
+                    android:title="@string/transfeqr"
+                    android:icon="@drawable/icono_qr_scanner"/>
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="@string/histo">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_historial"
+                    android:icon="@drawable/icono_historial"
+                    android:title="@string/histo" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/Info">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_MiQR"
+                    android:icon="@drawable/icono_qr"
+                    android:title="@string/qr" />
+                <item
+                    android:id="@+id/nav_Perfil"
+                    android:icon="@drawable/icono_perfil"
+                    android:title="@string/perf" />
+
+            </group>
+        </menu>
+    </item>
+
+            <item
+                android:id="@+id/nav_cerrar_sesion"
+                android:icon="@drawable/icono_salir"
+                android:title="@string/exits" />
+
+
+
+
+</menu>

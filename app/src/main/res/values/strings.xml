@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Banco App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Banco WPOSS App</string>
+    <string name="nav_header_subtitle">Tu banco amigo</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Salir App</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="welcome">Bienvenido</string>
+    <string name="inicio">Iniciar Sesión</string>
+    <string name="regist">Registro de usuario</string>
+    <string name="Trans">Transacción</string>
+    <string name="transfe">Transferir</string>
+    <string name="retiro">Retirar Dinero</string>
+    <string name="transfeqr">Transferir por QR</string>
+    <string name="histo">Historial</string>
+    <string name="ini">Inicio</string>
+    <string name="Info">Información</string>
+    <string name="exits">Cerrar Sesión</string>
+    <string name="qr">Mi QR</string>
+    <string name="perf">Mi perfil</string>
+    <string name="nom_comple">Nombre Completo</string>
+    <string name="cedula">Numero de Cedula </string>
+    <string name="email">Correo Electronico</string>
+    <string name="pass">Clave</string>
+    <string name="numero_cuenta">Numero de Cuenta</string>
+    <string name="saldo">Saldo</string>
+    <string name="cuenta_d">Cuenta Destino</string>
+    <string name="mon">Monto</string>
+
+
+</resources>

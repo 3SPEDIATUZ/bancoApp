@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.bancoapp_mejorado.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_Retirar"
+        android:name="com.example.bancoapp_mejorado.ui.retirar.RetirarFragment"
+        android:label="@string/retiro"
+        tools:layout="@layout/fragment_retirar" />
+
+    <fragment
+        android:id="@+id/nav_MiQR"
+        android:name="com.example.bancoapp_mejorado.ui.mi_qr.Mi_qrFragment"
+        android:label="@string/qr"
+        tools:layout="@layout/fragment_mi_qr" />
+
+    <fragment
+        android:id="@+id/nav_historial"
+        android:name="com.example.bancoapp_mejorado.ui.historial.HistorialFragment"
+        android:label="@string/histo"
+        tools:layout="@layout/fragment_historial" />
+    <fragment
+        android:id="@+id/nav_Perfil"
+        android:name="com.example.bancoapp_mejorado.ui.perfil.PerfilFragment"
+        android:label="@string/perf"
+        tools:layout="@layout/fragment_perfil" />
+
+    <fragment
+        android:id="@+id/nav_tranferir"
+        android:name="com.example.bancoapp_mejorado.ui.transferir.TransferirFragment"
+        android:label="@string/transfe"
+        tools:layout="@layout/fragment_transferir" />
+
+    <fragment
+        android:id="@+id/nav_tranferir_qr"
+        android:name="com.example.bancoapp_mejorado.ui.transferir_qr.Transferir_qrFragment"
+        android:label="@string/transfeqr"
+        tools:layout="@layout/fragment_transferir_qr" />
+
+</navigation>
